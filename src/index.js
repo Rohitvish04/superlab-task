@@ -17,7 +17,7 @@ app.listen(process.env.PORT || 10000,()=>{
 
 })
 .catch((error)=>{
-  console.log(`monogodb connection failed ${process.env.PORT}, ${error}`)
+  console.log(`monogodb connection failed ${process.env.PORT || 10000}, ${error}`)
   app.on((error)=>{
     console.log(error)
     throw error
