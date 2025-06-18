@@ -1,0 +1,15 @@
+#register  todos
+chekc the user is empty or not,
+check the user is already existed,
+check the avatar images and coverImage ,
+upload images on cloudinary ,//and also we use multer to store in diskstorage images
+remove password and refrsh token after crete User object as a data,
+gat a response of user call apiresponse
+
+
+#login todos
+check the user in database existed or not,
+crete a refresh token and access token and store ,
+
+
+
