@@ -2,7 +2,6 @@ import asynhandler from "../utils/asynchandler.js";
 import { ApiError } from "../utils/Apierror.js";
 import { User } from "../models/User.model.js";
 import { Apiresponse } from "../utils/Apiresponse.js";
-import uplpadOnCluodinary from "../utils/cloudinary.js";
 import jwt from "jsonwebtoken";
 const registerUser = asynhandler(async (req, res) => {
   const { fullName, Username, email, password } = req.body;
