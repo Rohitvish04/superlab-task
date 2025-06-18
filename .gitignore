@@ -1,3 +1,13 @@
+# dependencies
+node_modules/
+
+# environment variables
+.env
+
+# logs
+npm-debug.log*
+
+
 # Logs
 logs
 *.log
@@ -118,3 +128,4 @@ dist
 .pnp.*
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node
+.vercel
